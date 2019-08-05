@@ -1,0 +1,50 @@
+body {
+    margin: 4em;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+button {
+  margin: 0;
+  margin-left: 5px;
+  padding: 2px 8px;
+  height: 30px;
+  width: 75px;
+  outline: none;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border: 1px solid rgba(22, 76, 167, 0.6);
+  border-radius: 10px;
+  color: #1d89ff;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: inherit;
+  z-index: 0;
+  overflow: hidden;
+  span {
+    color: #164ca7;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+  }
+}
+
+input {
+    margin: 3px 0;
+    padding: 5px;
+}
+
+.invalid-pass-field {
+    border-color: #ED4337;
+    border-radius: 5px;
+}
+
+.invalid-pass-text {
+    display: block;
+}

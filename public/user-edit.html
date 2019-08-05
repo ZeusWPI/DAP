@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Zeus DAP</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/index.css" />
+        <script src="js/index.js"></script>
+    </head>
+
+    <body>
+
+        <h1>Zeus DAP</h1>
+
+        <div>
+            <h2>Edit xxx</h2>
+            <form>
+                <input type="password" name="current-password" placeholder="Current password" required minlength="6" maxlength="6"><br>
+                <input type="password" oninput="check_same_password()" name="new-password" id="new-password" placeholder="New password" required><br>
+                <input type="password" oninput="check_same_password()" name="new-password-confirmation" id="new-password-confirmation" placeholder="Confirm new password" required><br>
+                <!-- <p id="invalid-pass" style="display:none;">Passwords do not match</p> -->
+                <input type="submit" value="Change">
+            </form>
+        </div>
+
+        <form>
+            <div>
+                <label for="choose">Would you prefer a banana or a cherry?</label>
+                <input type="text" id="choose" name="i_like" required minlength="6" maxlength="6">
+            </div>
+            <div>
+                <label for="number">How many would you like?</label>
+                <input type="number" id="number" name="amount" value="1" min="1" max="10">
+            </div>
+            <div>
+                <button>Submit</button>
+            </div>
+        </form>
+
+
+        <form>
+            <label for="choose">Would you prefer a banana or a cherry?</label>
+            <input id="choose" name="i_like" required pattern="banana|cherry">
+            <button>Submit</button>
+        </form>
+
+    </body>
+
+
+</html>
